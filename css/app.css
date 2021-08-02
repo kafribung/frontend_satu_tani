@@ -5600,8 +5600,7 @@ input::-ms-clear {
     font-size: 12px;
     display: inline-block;
     padding: 16px 16px; 
-    background: rgba(245, 245, 250, 0.4);
-    box-shadow: -2px -2px 4px rgba(255, 255, 255, 0.5),  2px 2px 4px rgba(170, 170, 204, 0.25),  5px 5px 10px rgba(170, 170, 204, 0.5),  -5px -5px 10px #FFFFFF;
+    
 /* Note: backdrop-filter has minimal browser support */
 
 border-radius: 24px;}
