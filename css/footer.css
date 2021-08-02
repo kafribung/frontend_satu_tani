@@ -304,7 +304,7 @@ fieldset:disabled a.btn1 {
 
 
 .btn--e-brand-b-3 {
-  margin-left: 10px;
+  margin-left: 5px;
   color: #333333;
   background-color: #01AA4F;
   border: 2px solid #01AA4F;
@@ -324,11 +324,12 @@ fieldset:disabled a.btn1 {
     border-color: #007537; }
 
   .mini-link1 {
-  text-align: center;
-  padding: 13px 32px;
+float: right;
+  padding: 13px 20px;
   border-radius: 6px;
-  font-weight: 700;
-  font-size: 12px; }
+  font-weight: 600;
+  font-size: 12px;
+    margin-left: 8px; }
 
 
 /*# sourceMappingURL=style.css.map */
