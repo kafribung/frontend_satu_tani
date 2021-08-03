@@ -19,11 +19,11 @@
     <link rel="stylesheet" href="css/utility.css">
 
     <!--====== App ======-->
-    <link rel="stylesheet" href="css/app-home.css">
+    <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/footer.css">
-
-
-
+    <link rel="stylesheet" href="css/app-home.css">
+    <!-- <link rel="stylesheet" href="css/app-daftar-pesanan.css"> -->
+    
 </head>
 <body class="config">
     <div class="preloader is-active">
@@ -82,12 +82,14 @@
                                  </form>
                                  
                              </div>
-                            <div class="col-md-3">
+
+                              <div class="col-md-3">
                                 <div class="logres" style="padding-top: 10px">
                                     <a class="mini-link1 btn--e-brand-b-4" href="checkout.html">REGISTER</a>
                                   <a class="mini-link1 btn--e-brand-b-3" href="checkout.html">LOGIN</a>
                                   
                                 </div>
+                            </div>
                             </div>
                             </div>
                             <!--====== End - Search Form ======-->
@@ -375,300 +377,98 @@
                 <!--====== Section Content ======-->
                 <div class="section__content">
                     <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="has-separator">
+                                    <a href="checkout.html" class="fas fa-arrow-left" style="font-size: 18px;"></a>
+                                </div>
+                            </div>
+                        </div>
                         <div class="checkout-f">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="has-separator">
-                                        <a href="cart.html" class="fas fa-arrow-left" style="font-size: 18px;"></a>
+                                    <div class="o-summary__section u-s-m-b-30">
+                                        <div class="o-summary__box">
+                                            <div class="container">
+                                            <div class="row">
+                                            <div class="col-lg-7">
+                                                <table class="o-summary__table" rules=rows>
+                                                
+                                                    <tbody >
+                                                        <tr>
+                                                        </tr>
+                                                        <tr >
+                                                            <td class="nama">Nama Penerima</td>
+                                                            
+                                                            <td>Ahmad Fadil</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="nama">Alamat</td>
+                                                        
+                                                            <td>Jln. Sungguminasa blok k no 12 makassar Sulsel</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td  class="nama">Kelurahan</td>
+                                                      
+                                                            <td>Sungguminasa</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td  class="nama">Kecematan</td>
+                                                            
+                                                            <td>Manggala</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td  class="nama">No. Hp </td>
+                                                          
+                                                            <td>082312769438</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td  class="nama">Email </td>
+                                                          
+                                                            <td>ahmad_fadhil90@gmail.com</td>
+                                                        </tr>
+                                                        <tr>
+                                                        </tr>
+                                                    </tbody>
+                                                    </table>
+                                                    </div>
+
+
+                                                <div class="col-md-5">
+                                                    <table class="o-summary__table1">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="nama1">Sub Total</td>
+                                                            <td class="nama2">Rp. 400.000.00</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="nama1">PPN (10%)</td>
+                                                            <td class="nama2">Rp. 20.000.00</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="nama1">Ongkos Kirim</td>
+                                                            <td class="nama2">Rp. 75.000.00</td>
+                                                        </tr>                                                                                                 
+                                                        <tr>
+                                                            <td class="nama3" style="color: rgb(0, 172, 0); font-size: 18px; font-family: Poppins, bold; text-align: left;">Total </td>
+                                                            <td  class="nama4" style="color: rgb(0, 168, 0); font-size: 18px; font-family: Poppins;"> Rp. 379.000.00</td>
+                                                        </tr>
+                                                    </tbody> 
+                                                    </table>
+                                                    <a href="checkout-konfirm.html" class="mini-link btn--e-brand-b-2" style="font-size: 12px; margin-top: 30px;">KONFIRMASI</a>
+                                                </div>
+
+                                        </div>
+                                    </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <h1 class="checkout-f__h1">PILIH ONGKOS KIRIM</h1>
-                                   
-
-                                                <!--====== Check Box ======-->
-                                             
-                                                    <div class="u-s-m-b-10">
-
-                                                        <!--====== Radio Box ======-->
-                                                        <div class="row">
-                                                            <div class="col-lg-12">
-                                                                <div class="ongkir">
-                                                                <div class="radio-box" style="margin-top: 20px; margin-left: 20px;">
-
-                                                                    <input type="radio" id="cash-on-delivery" name="payment"> 
-                                                                    <div class="radio-box__state radio-box__state--primary">
-
-                                                                        <label class="radio-box__label" style="color: green; font-size: 16px;" for="cash-on-delivery">RP. 75.000.00</label></div>
-                                                                </div>
-                                                                <!--====== End - Radio Box ======-->
-                                                                
-                                                                <div class="gl-text u-s-m-t-6" style="margin-left: 45px; padding-bottom: 20px;">
-                                                                    <span>Standar</span><br>
-                                                                    <span>Estimasi Sampai Pada : 20 April - 27 April</span>
-                                                                </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                          
-                                                        <div class="row">
-                                                            <div class="col-lg-12">
-                                                                <div class="ongkir">
-                                                                <div class="radio-box" style="margin-top: 20px; margin-left: 20px;">
-
-                                                                    <input type="radio" id="cash-on-delivery" name="payment"> 
-                                                                    <div class="radio-box__state radio-box__state--primary">
-
-                                                                        <label class="radio-box__label" style="color: green; font-size: 16px;" for="cash-on-delivery">RP. 100.000.00</label></div>
-                                                                </div>
-                                                                <!--====== End - Radio Box ======-->
-                                                                
-                                                                <div class="gl-text u-s-m-t-6" style="margin-left: 45px; padding-bottom: 20px;">
-                                                                    <span>Ekonimi</span><br>
-                                                                    <span>Estimasi Sampai Pada : 20 April - 24 April</span>
-                                                                </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="row">
-                                                            <div class="col-lg-12">
-                                                                <div class="ongkir">
-                                                                <div class="radio-box" style="margin-top: 20px; margin-left: 20px;">
-
-                                                                    <input type="radio" id="cash-on-delivery" name="payment"> 
-                                                                    <div class="radio-box__state radio-box__state--primary">
-
-                                                                        <label class="radio-box__label" style="color: green; font-size: 16px;" for="cash-on-delivery">RP.150.000.00</label></div>
-                                                                </div>
-                                                                <!--====== End - Radio Box ======-->
-                                                                
-                                                                <div class="gl-text u-s-m-t-6" style="margin-left: 45px; padding-bottom: 20px;">
-                                                                    <span>Cepat</span><br>
-                                                                    <span>Estimasi Sampai Pada : 20 April - 22 April</span>
-                                                                </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
 
 
+
+                                                
+
+                                                        
+                                         
                                     
-
-                                    <h1 class="checkout-f__h1">RINGKASAN PESANAN</h1>
-
-                                    <!--====== Order Summary ======-->
-                                    <div class="o-summary">
-                                        <div class="o-summary__section u-s-m-b-30">
-                                            <div class="o-summary__item-wrap gl-scroll">
-                                                <div class="o-card">
-                                                    <div class="o-card__flex">
-                                                        <div class="o-card__img-wrap">
-
-                                                            <img class="u-img-fluid" src="images/product/electronic/product3.jpg" alt=""></div>
-                                                        <div class="o-card__info-wrap">
-
-                                                            <span class="o-card__name">
-
-                                                                <a href="product-detail.html">Yellow Wireless Headphone</a></span>
-
-                                                            <span class="o-card__quantity">Quantity x 1</span>
-
-                                                            <span class="o-card__price">$150.00</span></div>
-                                                    </div>
-
-                                                    <a class="o-card__del far fa-trash-alt"></a>
-                                                </div>
-                                                <div class="o-card">
-                                                    <div class="o-card__flex">
-                                                        <div class="o-card__img-wrap">
-
-                                                            <img class="u-img-fluid" src="images/product/electronic/product18.jpg" alt=""></div>
-                                                        <div class="o-card__info-wrap">
-
-                                                            <span class="o-card__name">
-
-                                                                <a href="product-detail.html">Nikon DSLR Camera 4k</a></span>
-
-                                                            <span class="o-card__quantity">Quantity x 1</span>
-
-                                                            <span class="o-card__price">$150.00</span></div>
-                                                    </div>
-
-                                                    <a class="o-card__del far fa-trash-alt"></a>
-                                                </div>
-                                                <div class="o-card">
-                                                    <div class="o-card__flex">
-                                                        <div class="o-card__img-wrap">
-
-                                                            <img class="u-img-fluid" src="images/product/women/product8.jpg" alt=""></div>
-                                                        <div class="o-card__info-wrap">
-
-                                                            <span class="o-card__name">
-
-                                                                <a href="product-detail.html">New Dress D Nice Elegant</a></span>
-
-                                                            <span class="o-card__quantity">Quantity x 1</span>
-
-                                                            <span class="o-card__price">$150.00</span></div>
-                                                    </div>
-
-                                                    <a class="o-card__del far fa-trash-alt"></a>
-                                                </div>
-                                                <div class="o-card">
-                                                    <div class="o-card__flex">
-                                                        <div class="o-card__img-wrap">
-
-                                                            <img class="u-img-fluid" src="images/product/men/product8.jpg" alt=""></div>
-                                                        <div class="o-card__info-wrap">
-
-                                                            <span class="o-card__name">
-
-                                                                <a href="product-detail.html">New Fashion D Nice Elegant</a></span>
-
-                                                            <span class="o-card__quantity">Quantity x 1</span>
-
-                                                            <span class="o-card__price">$150.00</span></div>
-                                                    </div>
-
-                                                    <a class="o-card__del far fa-trash-alt"></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        </div>
-
-
-                                                <!--====== End - Check Box ======-->
-                                            </div>
-
-                                            
-                                <div class="col-lg-6">
-                                    
-                                        <div class="o-summary__section u-s-m-b-30">
-                                            <div class="o-summary__box">
-                                                <h1 class="checkout-f__h1">DETAIL ORDERAN</h1>
-                                                <div class="ship-b">
-
-                                                    <span class="ship-b__text">Ship to:</span>
-                                                    <div class="ship-b__box u-s-m-b-10">
-                                                        <p class="ship-b__p">4247 Ashford Drive Virginia VA-20006 USA (+0) 900901904</p>
-
-                                                        <a class="ship-b__edit btn--e-transparent-platinum-b-2" data-modal="modal" data-modal-id="#edit-ship-address">Edit</a>
-                                                    </div>
-                                                    <div class="ship-b__box">
-
-                                                        <span class="ship-b__text">Bill to default billing address</span>
-
-                                                        <a class="ship-b__edit btn--e-transparent-platinum-b-2" data-modal="modal" data-modal-id="#edit-ship-address">Edit</a></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="o-summary__section u-s-m-b-30">
-                                            <div class="o-summary__box">
-                                                <table class="o-summary__table2" style="width: 100%;">
-                                                    <tbody style="width: 100%;">
-                                                        <tr>
-                                                            <td>Sub Total</td>
-                                                            <td>Rp. 400.000.00</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>PPN (10%)</td>
-                                                            <td>Rp. 20.000.00</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Ongkos Kirim</td>
-                                                            <td>Rp. 75.000.00</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Kode Diskon/Voucher</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>
-
-                                                                <input class="input-text input-text--primary-style" type="text" id="address-fname" placeholder="Kode Diskon"></td>
-                                                            <td> 
-                                                                 <a class="ship-b__edit btn--e-transparent-platinum-b-2" data-modal="modal" href="#">Gunakan</a></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Total </td>
-                                                            <td>Rp. 379.000.00</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                        <div class="o-summary__section u-s-m-b-30">
-                                            <div class="o-summary__box">
-                                                <h1 class="checkout-f__h1"> INFORMASI PEMBAYARAN</h1>
-                                                <form class="checkout-f__payment">
-                                                    <div class="u-s-m-b-10">
-
-                                                        <!--====== Radio Box ======-->
-                                                        <div class="radio-box">
-
-                                                            <input type="radio" id="cash-on-delivery" name="payment">
-                                                            <div class="radio-box__state radio-box__state--primary">
-
-                                                                <label class="radio-box__label" for="cash-on-delivery">Bayar Di tempat</label></div>
-                                                        </div>
-                                                        <!--====== End - Radio Box ======-->
-
-                                                        <span class="gl-text u-s-m-t-6">Pay Upon Cash on delivery. (This service is only available for some countries)</span>
-                                                    </div>
-                                                    <div class="u-s-m-b-10">
-
-                                                        <!--====== Radio Box ======-->
-                                                        <div class="radio-box">
-
-                                                            <input type="radio" id="direct-bank-transfer" name="payment">
-                                                            <div class="radio-box__state radio-box__state--primary">
-
-                                                                <label class="radio-box__label" for="direct-bank-transfer">Transfer Bank </label></div>
-                                                        </div>
-                                                        <!--====== End - Radio Box ======-->
-
-                                                        <span class="gl-text u-s-m-t-6">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</span>
-                                                    </div>
-                                                    
-                                                    <div class="u-s-m-b-10">
-
-                                                        <!--====== Radio Box ======-->
-                                                        <div class="radio-box">
-
-                                                            <input type="radio" id="pay-with-card" name="payment">
-                                                            <div class="radio-box__state radio-box__state--primary">
-
-                                                                <label class="radio-box__label" for="pay-with-card">Bayar Dengan Kartu Kredit / Debit</label></div>
-                                                        </div>
-                                                        <!--====== End - Radio Box ======-->
-
-                                                        <span class="gl-text u-s-m-t-6">International Credit Cards must be eligible for use within the United States.</span>
-                                                    </div>
-                                                    
-                                                    <div class="u-s-m-b-15">
-
-                                                        <!--====== Check Box ======-->
-                                                        <!-- <div class="check-box">
-
-                                                            <input type="checkbox" id="term-and-condition">
-                                                            <div class="check-box__state check-box__state--primary">
-
-                                                                <label class="check-box__label" for="term-and-condition">I consent to the</label></div>
-                                                        </div> -->
-                                                        <!--====== End - Check Box ======-->
-
-                                                        <!-- <a class="gl-link">Terms of Service.</a> -->
-                                                    </div>
-                                                    <div>
-
-                                                        <a href="checkout-konfirm.html" class="mini-link btn--e-brand-b-2" style="font-size: 12px">LANJUT</a>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
                                     <!--====== End - Order Summary ======-->
                                 </div>
                             </div>

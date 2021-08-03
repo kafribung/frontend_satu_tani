@@ -3166,7 +3166,7 @@ input::-ms-clear {
   margin-bottom: 8px; }
 
 .o-summary__section {
-  background-color: #ffffff;
+  background-color: #F7FAFC;
   border: 1px solid #eee; }
 
 .o-summary__box {
@@ -3194,6 +3194,78 @@ input::-ms-clear {
     font-size: 16px;
     font-weight: 700;
     color: #01AA4F; }
+
+
+    .o-summary__table {
+        width: 100%;
+        border-collapse: collapse; }
+        .o-summary__table td {
+          color: #333333;
+          Font-family: Poppins;
+          Font-style: Bold;
+          Font-size: 16px;
+          Line-height: 33px;
+          Line-height: 100%;
+          Align: Left;
+          Vertical-align: Top;
+          padding: 18px 0; }
+      
+          .o-summary__table1 {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px; }
+            .o-summary__table1 td {
+              color: #333333;
+              Text-Style: body bold;
+              Font-family: Poppins;
+              Font-style: Bold;
+              Font-size: 16px;
+              Line-height: 33px;
+              Line-height: 100%;
+              text-align: right;
+              Vertical-align: Top;
+              padding: 12px 0; }
+
+
+              .o-summary__table1 .nama1 {
+                color: rgb(49, 49, 49);
+                Font-family: Poppins;
+                Font-style: Medium;
+                Font-size: 14px;
+                Line-height: 24px;
+                Line-height: 100%;
+                text-align: Left;
+                Vertical-align: Top;
+              }
+              .o-summary__table1 .nama2 {
+                Text-Style: body bold;
+                Font-family: Poppins;
+                Font-style: Bold;
+                Font-size: 16px;
+                Line-height: 33px;
+                Line-height: 100%;
+                Align: Right;
+                Vertical-align: Top;
+                Fill-Color-Style: dark-text;
+                Fill: Solid #404A3D;
+              }
+      
+          .o-summary__table .nama {
+            color: rgb(0, 156, 47);
+            Font-family: Poppins;
+            Font-style: Medium;
+            Font-size: 14px;
+            Line-height: 24px;
+            Line-height: 100%;
+            Align: Left;
+            Vertical-align: Top;
+          }
+        .o-summary__table td:first-child {
+          text-align: lreft; }
+        .o-summary__table td {
+          text-align: left; }
+       
+      
 
 .o-card {
   border: 1px solid #f5f5f5;
@@ -6447,3 +6519,32 @@ input::-ms-clear {
 #js-product-detail-modal-thumbnail:hover .pt-prev, #js-product-detail-modal-thumbnail:hover .pt-next {
   opacity: .8; }
 
+.ongkir {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #E2E8F0;
+}
+
+.o-card {
+    box-shadow: 0 0px 1px 2px rgba(0, 138, 23, 0.2), 0 2px 5px 0 rgba(0, 192, 58, 0.329);
+    border-radius: 8px;
+}
+
+.o-summary__table2 {
+    width: 100%;
+    border-collapse: collapse; }
+  
+  .o-summary__table2 td {
+    color: #333333;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 0; }
+  .o-summary__table2 td:first-child {
+    text-align: left; }
+  .o-summary__table2 td {
+    text-align: right; }
+  .o-summary__table2 tr:last-child td {
+    font-size: 16px;
+    font-weight: 700;
+    color: #00bd2f; }
