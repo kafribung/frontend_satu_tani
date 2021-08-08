@@ -3384,7 +3384,7 @@ input::-ms-clear {
 
 .faq__question:before {
   content: "\F107";
-  font-family: 'Font Awesome 5 Free';
+  font-family: Poppins;
   font-weight: 900;
   position: absolute;
   top: 8px;
@@ -5537,7 +5537,7 @@ input::-ms-clear {
 
 /* Tootip styles */
 .tooltip {
-  font-family: "Open Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: Poppins;
   font-size: 12px;
   font-weight: 600; }
 
