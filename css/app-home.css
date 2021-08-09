@@ -3575,60 +3575,61 @@ input::-ms-clear {
   font-size: 13px;
   color: #333333; }
 
-.manage-o__timeline {
-  padding-top: 40px; }
-  .manage-o__timeline [class*="col-"] {
-    padding: 0;
-    text-align: center; }
-
-.timeline-row {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
-
-.timeline-l-i {
-  position: relative;
-  border-radius: 3px;
-  border-top: 3px solid #eee; }
-  .timeline-l-i .timeline-circle {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    background: #ffffff;
-    border: 2px solid #eee;
-    margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0; }
-    .timeline-l-i .timeline-circle:before {
-      content: "";
-      display: block;
-      width: 8px;
-      height: 8px;
-      background-color: #eee;
-      margin: auto;
+  .manage-o__timeline {
+    padding-top: 40px; }
+    .manage-o__timeline [class*="col-"] {
+      padding: 0;
+      text-align: center; }
+  
+  .timeline-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  
+  .timeline-l-i {
+    position: relative;
+   
+    border-top: 3px solid #01AA4F; }
+    .timeline-l-i .timeline-circle {
       position: absolute;
+      width: 24px;
+      height: 24px;
+      background: #ffffff;
+      border: 2px solid #01AA4F;
+      border-radius: 50%;
+      margin: auto;
       top: 0;
       left: 0;
       bottom: 0;
       right: 0; }
-
-.timeline-l-i.timeline-l-i--finish {
-  border-color: #6B5AED; }
-  .timeline-l-i.timeline-l-i--finish .timeline-circle {
-    border-color: #6B5AED; }
-    .timeline-l-i.timeline-l-i--finish .timeline-circle:before {
-      background-color: #6B5AED; }
-
-.timeline-text {
-  margin-top: 20px;
-  font-size: 13px;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  color: #333333; }
+      .timeline-l-i .timeline-circle:before {
+        content: "";
+        display: block;
+        width:  22px;
+        height: 22px;
+        border-radius: 50%;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0; }
+  
+  .timeline-l-i.timeline-l-i--finish {
+    border-color: #01AA4F; }
+    .timeline-l-i.timeline-l-i--finish .timeline-circle {
+      border-color: #01AA4F; }
+      .timeline-l-i.timeline-l-i--finish .timeline-circle:before {
+        background-color: #01AA4F; }
+  
+  .timeline-text {
+    margin-top: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    color: #333333; }
 
 .manage-o__description {
   display: -ms-flexbox;
