@@ -242,7 +242,7 @@ Box Module
  */
 body {
   color: #7f7f7f;
-  font-family: "Open Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+  font-family: Poppins }
 
 /*--------------------------------------------------------------
 3.0 Pre-configured styles
@@ -3423,7 +3423,7 @@ input::-ms-clear {
 
 .faq__question:before {
   content: "\F107";
-  font-family: 'Font Awesome 5 Free';
+  font-family: Poppins;
   font-weight: 900;
   position: absolute;
   top: 8px;
@@ -3647,60 +3647,61 @@ input::-ms-clear {
   font-size: 13px;
   color: #333333; }
 
-.manage-o__timeline {
-  padding-top: 40px; }
-  .manage-o__timeline [class*="col-"] {
-    padding: 0;
-    text-align: center; }
-
-.timeline-row {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
-
-.timeline-l-i {
-  position: relative;
-  border-radius: 3px;
-  border-top: 3px solid #eee; }
-  .timeline-l-i .timeline-circle {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    background: #ffffff;
-    border: 2px solid #eee;
-    margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0; }
-    .timeline-l-i .timeline-circle:before {
-      content: "";
-      display: block;
-      width: 8px;
-      height: 8px;
-      background-color: #eee;
-      margin: auto;
+  .manage-o__timeline {
+    padding-top: 40px; }
+    .manage-o__timeline [class*="col-"] {
+      padding: 0;
+      text-align: center; }
+  
+  .timeline-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  
+  .timeline-l-i {
+    position: relative;
+   
+    border-top: 3px solid #01AA4F; }
+    .timeline-l-i .timeline-circle {
       position: absolute;
+      width: 24px;
+      height: 24px;
+      background: #ffffff;
+      border: 2px solid #01AA4F;
+      border-radius: 50%;
+      margin: auto;
       top: 0;
       left: 0;
       bottom: 0;
       right: 0; }
-
-.timeline-l-i.timeline-l-i--finish {
-  border-color: #6B5AED; }
-  .timeline-l-i.timeline-l-i--finish .timeline-circle {
-    border-color: #6B5AED; }
-    .timeline-l-i.timeline-l-i--finish .timeline-circle:before {
-      background-color: #6B5AED; }
-
-.timeline-text {
-  margin-top: 20px;
-  font-size: 13px;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  color: #333333; }
+      .timeline-l-i .timeline-circle:before {
+        content: "";
+        display: block;
+        width:  22px;
+        height: 22px;
+        border-radius: 50%;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0; }
+  
+  .timeline-l-i.timeline-l-i--finish {
+    border-color: #01AA4F; }
+    .timeline-l-i.timeline-l-i--finish .timeline-circle {
+      border-color: #01AA4F; }
+      .timeline-l-i.timeline-l-i--finish .timeline-circle:before {
+        background-color: #01AA4F; }
+  
+  .timeline-text {
+    margin-top: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    color: #333333; }
 
 .manage-o__description {
   display: -ms-flexbox;
@@ -4577,7 +4578,7 @@ input::-ms-clear {
   font-weight: 600; }
 
 .pd-detail__price {
-  color: #01AA4F;
+  color: #EEA46B;
   font-size: 2rem;
   font-weight: 700; }
 
@@ -5295,7 +5296,7 @@ input::-ms-clear {
       color: #01AA4F; }
   .is-grid-active .product-m__price {
     line-height: 1.2;
-    color: #333333;
+    color: #EEA46B;
     font-size: 14px;
     font-weight: 600; }
   .is-grid-active .product-m__discount {
@@ -5425,7 +5426,7 @@ input::-ms-clear {
   .is-list-active .product-m__price {
     margin-bottom: 8px;
     line-height: 1.2;
-    color: #333333;
+    color: #EEA46B;
     font-size: 14px;
     font-weight: 600; }
   .is-list-active .product-m__discount {
@@ -5568,7 +5569,7 @@ input::-ms-clear {
 
 /* Tootip styles */
 .tooltip {
-  font-family: "Open Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: Poppins;
   font-size: 12px;
   font-weight: 600; }
 
@@ -5717,7 +5718,7 @@ input::-ms-clear {
     transition: all .3s;
     cursor: pointer; }
     .js-menu-toggle:after {
-      font-family: 'Font Awesome 5 Free';
+      font-family: Poppins;
       content: "";
       position: absolute;
       top: 50%;

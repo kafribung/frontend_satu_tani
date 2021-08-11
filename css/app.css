@@ -3384,7 +3384,7 @@ input::-ms-clear {
 
 .faq__question:before {
   content: "\F107";
-  font-family: 'Font Awesome 5 Free';
+  font-family: Poppins;
   font-weight: 900;
   position: absolute;
   top: 8px;
@@ -3622,14 +3622,15 @@ input::-ms-clear {
 
 .timeline-l-i {
   position: relative;
-  border-radius: 3px;
-  border-top: 3px solid #eee; }
+ 
+  border-top: 3px solid #01AA4F; }
   .timeline-l-i .timeline-circle {
     position: absolute;
-    width: 18px;
-    height: 18px;
+    width: 24px;
+    height: 24px;
     background: #ffffff;
-    border: 2px solid #eee;
+    border: 2px solid #01AA4F;
+    border-radius: 50%;
     margin: auto;
     top: 0;
     left: 0;
@@ -3638,9 +3639,9 @@ input::-ms-clear {
     .timeline-l-i .timeline-circle:before {
       content: "";
       display: block;
-      width: 8px;
-      height: 8px;
-      background-color: #eee;
+      width:  22px;
+      height: 22px;
+      border-radius: 50%;
       margin: auto;
       position: absolute;
       top: 0;
@@ -3649,11 +3650,11 @@ input::-ms-clear {
       right: 0; }
 
 .timeline-l-i.timeline-l-i--finish {
-  border-color: #6B5AED; }
+  border-color: #01AA4F; }
   .timeline-l-i.timeline-l-i--finish .timeline-circle {
-    border-color: #6B5AED; }
+    border-color: #01AA4F; }
     .timeline-l-i.timeline-l-i--finish .timeline-circle:before {
-      background-color: #6B5AED; }
+      background-color: #01AA4F; }
 
 .timeline-text {
   margin-top: 20px;
@@ -5537,7 +5538,7 @@ input::-ms-clear {
 
 /* Tootip styles */
 .tooltip {
-  font-family: "Open Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: Poppins;
   font-size: 12px;
   font-weight: 600; }
 
