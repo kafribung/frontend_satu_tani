@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link href="#" rel="shortcut icon">
-    <title>Profil - SatuTani</title>
+    <link href="images/.png" rel="shortcut icon">
+    <title>Tentang Kami - Satu Tani</title>
 
     <!--====== Google Font ======-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
@@ -19,9 +19,11 @@
     <link rel="stylesheet" href="css/utility.css">
 
     <!--====== App ======-->
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="stylesheet" href="css/app-home.css">
+    <link rel="stylesheet" href="css/appbantuan.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/pesanan.css">
+    <link rel="stylesheet" href="css/bantupengguna.css">
+
 </head>
 <body class="config">
     <div class="preloader is-active">
@@ -59,7 +61,7 @@
  <!--====== Search Form ======-->
  <div class="col-lg-6 offset-lg-1">
 		   
-    <form class="" style="margin-bottom: 20px; padding-top: 10px;">
+    <form class="" style="margin-bottom: 20px; padding-top: 0px;">
 
          <div class="input-group input-group-lg mb-3" id="search-box" data-component-category>
            <input type="text" class="form-control default-font-size" placeholder="Search product" aria-label="Search product">
@@ -144,6 +146,7 @@
                                         <a><i class="fas fa-cogs fa-lg"></i></a>
 
                                         <!--====== Dropdown ======-->
+
                                         <span class="js-menu-toggle"></span>
                                         <ul style="width:160px">
                                             <li>
@@ -336,12 +339,17 @@
     </header>
     <!--====== End - Main Header ======-->
 
+                            
 
         <!--====== App Content ======-->
         <div class="app-content">
+                             
+                
 
             <!--====== Section 2 ======-->
             <div class="u-s-p-b-60">
+
+                
 
                 <!--====== Section Content ======-->
                 <div class="section__content">
@@ -355,113 +363,60 @@
                                         <div class="dash__pad-1">
 
                                             <span class="dash__text u-s-m-b-16">Hello, John Doe</span>
-                                            <ul class="dash__f-list">
+                                            <ul class="ah-list ah-list--design5 ah-list--link-color-secondary">
                                                 <li>
 
-                                                    <a href="dashboard.html">Kelola Akun Saya</a></li>
+                                                    <a href="bantuan-pengguna.html" >Syarat & Ketentuan</a></li></li>
                                                 <li>
-
-                                                    <a class="dash-active"  href="dash-my-profile.html">Profil Saya</a></li>
+                
+                                                    <a href="kebijakan.html">Kebijakan Privasi</a></li>
                                                 <li>
-
-                                                    <a href="dash-address-book.html">Alamat</a></li>
+                
+                                                    <a href="tanya.html" >Tanya Jawab</a></li>
                                                 <li>
-
-                                                    <a href="pesanan-menunggu-pembayaran.html">Kembali</a></li>
-                                               
+                
+                                                    <a href="panduan.html" >Panduan</a></li>
+                                                <li>
+                
+                                                    <a href="tentang-kami.html"  class="active">Tentang Kami</a></li>
+                                            
                                             </ul>
                                         </div>
                                     </div>
-                                
-                                    <!--====== End - Dashboard Features ======-->
                                 </div>
+                            
                                 <div class="col-lg-9 col-md-12">
-                                    <div class="dash__box dash__box--shadow dash__box--radius dash__box--bg-white">
-                                        <div class="dash__pad-2">
-                                            <h1 class="dash__h1 u-s-m-b-14">Edit Profile</h1>
+                                    <div class=" bgcard">
+                                    <div class="tentangkami">
+                                       
+                                        <img src="images/logo/logo st1.png" alt="satutani">
+                                        <h3>Haiii.. Welcome to <span>SatuTani.</span></h3>
+                                        <p>Haiii.. Welcome to SatuTani.
+                                            SatuTani adalah sebuah platform yang menghubungkan pembeli dan petani bawang merah secara langsung.  
+                                            Dengan tujuan awal, SatuTani diciptakan agar dapat memberdayakan masyarakat tani dengan membantu 
+                                            memasarkan hasil panen mereka menggunakan jaringan internet.<br>
+                                            Platform ini diharapkan dapat mempermudah petani serta pembeli dalam menjual dan membeli bawang 
+                                            merah dengan cepat dan mudah melalui platform SatuTani.<br>
+                                            Kami berusaha memberikan layanan terbaik dengan menjunjung tinggi kejujuran,ketepatan dan profesionalisme dalam bisnis kami.<br>
+                                            Semoga layanan kami bisa membantu dan mempermudah anda 
+                                            Salam SatuTani.</p>
 
-                                            <span class="dash__text u-s-m-b-30">Sepertinya Anda belum memperbarui profil Anda</span>
-                                           
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <form class="dash-edit-p">
-                                                        <div class="gl-inline">
-                                                            <div class="u-s-m-b-30">
-
-                                                                <label class="gl-label" for="reg-fname">NAMA DEPAN *</label>
-
-                                                                <input class="input-text input-text--primary-style" type="text" id="reg-fname" placeholder="John"></div>
-                                                            <div class="u-s-m-b-30">
-
-                                                                <label class="gl-label" for="reg-lname">NAMA BELAKANG *</label>
-
-                                                                <input class="input-text input-text--primary-style" type="text" id="reg-lname" placeholder="Doe"></div>
-                                                        </div>
-                                                        <div class="gl-inline">
-                                                            <div class="u-s-m-b-30">
-
-                                                                <!--====== Date of Birth Select-Box ======-->
-
-                                                                <span class="gl-label">TANGGAL LAHIR</span>
-                                                                <div class="gl-dob"><select class="select-box select-box--primary-style">
-                                                                        <option selected>Month</option>
-                                                                        <option value="male">January</option>
-                                                                        <option value="male">February</option>
-                                                                        <option value="male">March</option>
-                                                                        <option value="male">April</option>
-                                                                    </select><select class="select-box select-box--primary-style">
-                                                                        <option selected>Day</option>
-                                                                        <option value="01">01</option>
-                                                                        <option value="02">02</option>
-                                                                        <option value="03">03</option>
-                                                                        <option value="04">04</option>
-                                                                    </select><select class="select-box select-box--primary-style">
-                                                                        <option selected>Year</option>
-                                                                        <option value="1991">1991</option>
-                                                                        <option value="1992">1992</option>
-                                                                        <option value="1993">1993</option>
-                                                                        <option value="1994">1994</option>
-                                                                    </select></div>
-                                                                <!--====== End - Date of Birth Select-Box ======-->
-                                                            </div>
-                                                            <div class="u-s-m-b-30">
-
-                                                                <label class="gl-label" for="gender">JENIS KELAMIN</label><select class="select-box select-box--primary-style u-w-100" id="gender">
-                                                                    <option selected>Select</option>
-                                                                    <option value="male">Male</option>
-                                                                    <option value="male">Female</option>
-                                                                </select></div>
-                                                        </div>
-                                                        <div class="gl-inline">
-                                                            <div class="u-s-m-b-30">
-                                                                <h2 class="dash__h2 u-s-m-b-8">E-mail</h2>
-                                                                <input class="input-text input-text--primary-style" type="text" id="reg-lname" placeholder="johndoe@domain.com">
-                                                                                                                       
-                                                            </div>
-                                                            <div class="u-s-m-b-30">
-                                                                <h2 class="dash__h2 u-s-m-b-8">Phone</h2>
-                                                                <input class="input-text input-text--primary-style" type="text" id="reg-lname" placeholder="08************">
-                                                              
-                                                            </div>
-                                                        </div>
-
-                                                        <button class="btn btn--e-brand-b-2" type="submit">SIMPAN</button>
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    </div>            
                                 </div>
-                            </div>
+                            </div> 
                         </div>
                     </div>
                 </div>
                 <!--====== End - Section Content ======-->
             </div>
-            <!--====== End - Section 2 ======-->
         </div>
+            <!--====== End - Section 2 ======-->
+    </div>
+    <!--====== End - Main App ======-->
 
-        <!--====== Main Footer ======-->
+
+
+       <!--====== Main Footer ======-->
        <footer>
         <div class="outer-footer">
             <div class="container">
@@ -575,13 +530,7 @@
         </div>
     </footer>
 
-        <!--====== Modal Section ======-->
 
-
-        <!--====== Unsubscribe or Subscribe Newsletter ======-->
-        <!--====== End - Modal Section ======-->
-    </div>
-    <!--====== End - Main App ======-->
 
 
     <!--====== Google Analytics: change UA-XXXXX-Y to be your site's ID ======-->

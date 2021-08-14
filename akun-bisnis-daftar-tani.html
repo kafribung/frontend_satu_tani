@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link href="#" rel="shortcut icon">
-    <title>Profil - SatuTani</title>
+    <link href="images/.png" rel="shortcut icon">
+    <title>Aku Bisnis Petani - Satutani</title>
 
     <!--====== Google Font ======-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/app-home.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/pesanan.css">
 </head>
 <body class="config">
     <div class="preloader is-active">
@@ -59,7 +60,7 @@
  <!--====== Search Form ======-->
  <div class="col-lg-6 offset-lg-1">
 		   
-    <form class="" style="margin-bottom: 20px; padding-top: 10px;">
+    <form class="" style="margin-bottom: 20px; padding-top: 0px;">
 
          <div class="input-group input-group-lg mb-3" id="search-box" data-component-category>
            <input type="text" class="form-control default-font-size" placeholder="Search product" aria-label="Search product">
@@ -336,13 +337,10 @@
     </header>
     <!--====== End - Main Header ======-->
 
-
         <!--====== App Content ======-->
         <div class="app-content">
-
             <!--====== Section 2 ======-->
             <div class="u-s-p-b-60">
-
                 <!--====== Section Content ======-->
                 <div class="section__content">
                     <div class="dash">
@@ -358,98 +356,63 @@
                                             <ul class="dash__f-list">
                                                 <li>
 
-                                                    <a href="dashboard.html">Kelola Akun Saya</a></li>
+                                                    <a href="dashboard.html">Akun</a></li>
                                                 <li>
 
-                                                    <a class="dash-active"  href="dash-my-profile.html">Profil Saya</a></li>
+                                                    <a href="pesanan-menunggu-pembayaran.html">Pesanan</a></li>
                                                 <li>
 
-                                                    <a href="dash-address-book.html">Alamat</a></li>
+                                                    <a class="dash-active" href="akun-bisnis-daftar.html">Bisnis</a></li>
                                                 <li>
 
-                                                    <a href="pesanan-menunggu-pembayaran.html">Kembali</a></li>
+                                                    <a href="posting.html">Posting</a></li>
                                                
                                             </ul>
                                         </div>
                                     </div>
-                                
                                     <!--====== End - Dashboard Features ======-->
                                 </div>
                                 <div class="col-lg-9 col-md-12">
-                                    <div class="dash__box dash__box--shadow dash__box--radius dash__box--bg-white">
+                                
+                                    <div class="dash__box dash__box--shadow dash__box--radius dash__box--bg-white u-s-m-b-30">
                                         <div class="dash__pad-2">
-                                            <h1 class="dash__h1 u-s-m-b-14">Edit Profile</h1>
-
-                                            <span class="dash__text u-s-m-b-30">Sepertinya Anda belum memperbarui profil Anda</span>
-                                           
-                                            <div class="row">
-                                                <div class="col-lg-12">
-                                                    <form class="dash-edit-p">
-                                                        <div class="gl-inline">
-                                                            <div class="u-s-m-b-30">
-
-                                                                <label class="gl-label" for="reg-fname">NAMA DEPAN *</label>
-
-                                                                <input class="input-text input-text--primary-style" type="text" id="reg-fname" placeholder="John"></div>
-                                                            <div class="u-s-m-b-30">
-
-                                                                <label class="gl-label" for="reg-lname">NAMA BELAKANG *</label>
-
-                                                                <input class="input-text input-text--primary-style" type="text" id="reg-lname" placeholder="Doe"></div>
-                                                        </div>
-                                                        <div class="gl-inline">
-                                                            <div class="u-s-m-b-30">
-
-                                                                <!--====== Date of Birth Select-Box ======-->
-
-                                                                <span class="gl-label">TANGGAL LAHIR</span>
-                                                                <div class="gl-dob"><select class="select-box select-box--primary-style">
-                                                                        <option selected>Month</option>
-                                                                        <option value="male">January</option>
-                                                                        <option value="male">February</option>
-                                                                        <option value="male">March</option>
-                                                                        <option value="male">April</option>
-                                                                    </select><select class="select-box select-box--primary-style">
-                                                                        <option selected>Day</option>
-                                                                        <option value="01">01</option>
-                                                                        <option value="02">02</option>
-                                                                        <option value="03">03</option>
-                                                                        <option value="04">04</option>
-                                                                    </select><select class="select-box select-box--primary-style">
-                                                                        <option selected>Year</option>
-                                                                        <option value="1991">1991</option>
-                                                                        <option value="1992">1992</option>
-                                                                        <option value="1993">1993</option>
-                                                                        <option value="1994">1994</option>
-                                                                    </select></div>
-                                                                <!--====== End - Date of Birth Select-Box ======-->
-                                                            </div>
-                                                            <div class="u-s-m-b-30">
-
-                                                                <label class="gl-label" for="gender">JENIS KELAMIN</label><select class="select-box select-box--primary-style u-w-100" id="gender">
-                                                                    <option selected>Select</option>
-                                                                    <option value="male">Male</option>
-                                                                    <option value="male">Female</option>
-                                                                </select></div>
-                                                        </div>
-                                                        <div class="gl-inline">
-                                                            <div class="u-s-m-b-30">
-                                                                <h2 class="dash__h2 u-s-m-b-8">E-mail</h2>
-                                                                <input class="input-text input-text--primary-style" type="text" id="reg-lname" placeholder="johndoe@domain.com">
-                                                                                                                       
-                                                            </div>
-                                                            <div class="u-s-m-b-30">
-                                                                <h2 class="dash__h2 u-s-m-b-8">Phone</h2>
-                                                                <input class="input-text input-text--primary-style" type="text" id="reg-lname" placeholder="08************">
-                                                              
+                                            <div class="manage-o">
+                                                <div class="manage-o__timeline">
+                                                    <div class="timeline-row">
+                                                        <div class="col-lg-12 u-s-m-b-30">
+                                                            <div class="bisnis-tani">
+                                                                <img src="images/akunbisnis/bisnis0.png" alt="bisnis">
                                                             </div>
                                                         </div>
-
-                                                        <button class="btn btn--e-brand-b-2" type="submit">SIMPAN</button>
-                                                    </form>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12">
+                                            <div class="dash__box dash__box--shadow dash__box--radius dash__box--bg-white u-s-m-b-30">
+                                                <div class="dash__pad-2">
+                                                    <center>
+                                                    <h1 class="dash__h1 u-s-m-b-14" style="margin-bottom: 80px;">Upload Foto KTP Anda</h1>
+                                                    <a class="btn btn-primary fas fa-upload"  href="akun-bisnis-daftar-tani.html" style="padding: 12px 15px; font-size: 16px;"> &nbsp; &nbsp; Upload Foto</a>    
+                                                    <span class="dash__text u-s-m-b-30" style="margin-top: 10px;">Semua pesanan yang menunggu pembayaran.</span>
+                                                    </center>
+
+                                                    <h1 class="dash__h1 u-s-m-b-14" style="margin-top: 120px; padding: 0 20px;" >Persyaratan</h1>
+                                                    <ul>
+                                                        <li>Foto e-KTP asli</li>
+                                                        <li>Informasi pada e-KTP terlihat jelas dan tidak ada yang buram maupun terpotong</li>
+                                                        <li>Tidak ada pantulan cahaya dan bayangan</li>
+                                                        <li>Ukuran gambar maximal 1 MB</li>
+                                                    </ul>
+                                                    <a class="btn2 btn-primary" href="akun-bisnis-daftar-tani1.html" >Lanjutkan</a>  
+                                                    <a class="btn1 btn-primary" href="akun-bisnis-daftar.html" >Batal</a>  
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -460,126 +423,123 @@
             </div>
             <!--====== End - Section 2 ======-->
         </div>
+        <!--====== End - App Content ======-->
 
-        <!--====== Main Footer ======-->
-       <footer>
-        <div class="outer-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5 col-md-6">
-                        <div class="outer-footer__content u-s-m-b-40">
 
-                            <img src="images/logo/logo st1.png" alt="" style="width: 150px;">
-                            <div class="outer-footer__text-wrap">
-
-                                <span>Satutani merupakan sebuah situs website yang akan menjembatani petani dan pembeli bawang secara 
-                                    langsung dan dapar mempermudah petani dalam mempromosikan dan menjual hasil panen secara cepat dengan 
-                                    memanfaatkan internet</span></div>
-                            
+         <!--====== Main Footer ======-->
+         <footer>
+            <div class="outer-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-6">
+                            <div class="outer-footer__content u-s-m-b-40">
+    
+                                <img src="images/logo/logo st1.png" alt="" style="width: 150px;">
+                                <div class="outer-footer__text-wrap">
+    
+                                    <span>Satutani merupakan sebuah situs website yang akan menjembatani petani dan pembeli bawang secara 
+                                        langsung dan dapar mempermudah petani dalam mempromosikan dan menjual hasil panen secara cepat dengan 
+                                        memanfaatkan internet</span></div>
+                                
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-5 col-md-6">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6">
-                                <div class="outer-footer__content u-s-m-b-40">
-
-                                    <span class="outer-footer__content-title">Layanan</span>
-                                    <div class="outer-footer__list-wrap">
-                                        <ul>
-                                            <li>
-
-                                                <a href="cart.html">Tanya Jawab</a></li>
-                                            <li>
-
-                                                <a href="dashboard.html">Panduan</a></li>
-                                            <li>
-
-                                                <a href="shop-side-version-2.html">Tentang Kami</a></li>
-                                            <li>
-
-                                                <a href="dash-payment-option.html">Syarat dan Ketentuan</a></li>
-                                            <li>
-
-                                                <a href="shop-side-version-2.html">Kebijakan Privasi</a></li>
-                                        </ul>
+                        <div class="col-lg-5 col-md-6">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="outer-footer__content u-s-m-b-40">
+    
+                                        <span class="outer-footer__content-title">Layanan</span>
+                                        <div class="outer-footer__list-wrap">
+                                            <ul>
+                                                <li>
+    
+                                                    <a href="cart.html">Tanya Jawab</a></li>
+                                                <li>
+    
+                                                    <a href="dashboard.html">Panduan</a></li>
+                                                <li>
+    
+                                                    <a href="shop-side-version-2.html">Tentang Kami</a></li>
+                                                <li>
+    
+                                                    <a href="dash-payment-option.html">Syarat dan Ketentuan</a></li>
+                                                <li>
+    
+                                                    <a href="shop-side-version-2.html">Kebijakan Privasi</a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-5 col-md-6">
-                                <div class="outer-footer__content u-s-m-b-40">
-                                    <div class="outer-footer__list-wrap">
-
-                                        <span class="outer-footer__content-title">Kantor</span>
-                                        <div class="outer-footer__text-wrap">
-                                        <span>Jalan Ujung Bori Komp. Kodap Stp 3/13 Kelurahan Bitoa Kecematan Manggala Kota Makassar, 90234</span>
+                                <div class="col-lg-5 col-md-6">
+                                    <div class="outer-footer__content u-s-m-b-40">
+                                        <div class="outer-footer__list-wrap">
+    
+                                            <span class="outer-footer__content-title">Kantor</span>
+                                            <div class="outer-footer__text-wrap">
+                                            <span>Jalan Ujung Bori Komp. Kodap Stp 3/13 Kelurahan Bitoa Kecematan Manggala Kota Makassar, 90234</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6">
-                        <div class="outer-footer__content">
-
-                            <span class="outer-footer__content-title">Kontak Kami</span>
-                            <form class="newsletter">
-                                <div class="u-s-m-b-15">
-                                    <div class="radio-box newsletter__radio">
-                                        <div class="row" style="margin-bottom: 10px;">
-                                            <div class="col-lg-4 col-sm-2">
-                                                <a href=""><img src="images/icon/fb.svg" alt=""> </a>
-                                            </div>
-                                            <div class="col-lg-4 col-sm-2">
-                                                <a href=""><img src="images/icon/ig.svg" alt=""> </a>
-                                            </div>
-                                            <div class="col-lg-4 col-sm-2"style="margin-bottom: 10px;">
-                                                <a href=""><img src="images/icon/twi.svg" alt=""> </a>
-                                            </div>
-                                     
-                                        
-                                            <div class="col-lg-4 col-sm-2">
-                                                <a href=""><img src="images/icon/wa.svg" alt=""> </a>
-                                            </div>
-                                            <div class="col-lg-4 col-sm-2">
-                                                <a href=""><img src="images/icon/yt.svg" alt=""> </a>
-                                            </div>
-                                            <div class="col-lg-4 col-sm-2">
-                                                <a href=""><img src="images/icon/tele.svg" alt=""> </a>
-                                            </div>
-                                        </div>                                                                                                                     
-                                    </div>
-                                </div>                                
-                            </form>
+                        <div class="col-lg-2 col-md-6">
+                            <div class="outer-footer__content">
+    
+                                <span class="outer-footer__content-title">Kontak Kami</span>
+                                <form class="newsletter">
+                                    <div class="u-s-m-b-15">
+                                        <div class="radio-box newsletter__radio">
+                                            <div class="row" style="margin-bottom: 10px;">
+                                                <div class="col-lg-4 col-sm-2">
+                                                    <a href=""><img src="images/icon/fb.svg" alt=""> </a>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-2">
+                                                    <a href=""><img src="images/icon/ig.svg" alt=""> </a>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-2"style="margin-bottom: 10px;">
+                                                    <a href=""><img src="images/icon/twi.svg" alt=""> </a>
+                                                </div>
+                                         
+                                            
+                                                <div class="col-lg-4 col-sm-2">
+                                                    <a href=""><img src="images/icon/wa.svg" alt=""> </a>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-2">
+                                                    <a href=""><img src="images/icon/yt.svg" alt=""> </a>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-2">
+                                                    <a href=""><img src="images/icon/tele.svg" alt=""> </a>
+                                                </div>
+                                            </div>                                                                                                                     
+                                        </div>
+                                    </div>                                
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="lower-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="lower-footer__content" >
-                            <div class="lower-footer__copyright">
-
-                                <span>Copyright © 2021</span>
-
-                                <a href="index.html">satutani.id</a>
-
-                                <span>All Right Reserved</span></div>
-                          
+            <div class="lower-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="lower-footer__content" >
+                                <div class="lower-footer__copyright">
+    
+                                    <span>Copyright © 2021</span>
+    
+                                    <a href="index.html">satutani.id</a>
+    
+                                    <span>All Right Reserved</span></div>
+                              
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
-        <!--====== Modal Section ======-->
-
-
-        <!--====== Unsubscribe or Subscribe Newsletter ======-->
-        <!--====== End - Modal Section ======-->
     </div>
     <!--====== End - Main App ======-->
 
