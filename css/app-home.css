@@ -5609,6 +5609,10 @@ input::-ms-clear {
     margin: 0;
     padding: 0; }
 
+.ah-list .active{
+   color: #01AA4F; 
+}
+
 .ah-list--design1 > li {
   display: inline-block; }
   .ah-list--design1 > li > a {
